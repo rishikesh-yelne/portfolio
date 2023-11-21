@@ -1,9 +1,19 @@
-<div class="card-container">
-    <div class="card main-page-tile">
-        <app-profile></app-profile>
-    </div>
-    <div class="card main-page-tile">
-        <app-content></app-content>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card card-custom-bg">
+                <div class="card-body">
+                    <app-profile></app-profile>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="card card-custom-bg">
+                <div class="card-body">
+                    <app-content></app-content>
+                </div>
+            </div>            
+        </div>
     </div>
 </div>
 <router-outlet></router-outlet>

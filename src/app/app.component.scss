@@ -1,32 +1,4 @@
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 16px;
-    display: grid; 
-    grid-template-columns: 30% 70%;
-}
-
-.card {
-    all: unset;
-    border-radius: 12px;
-    border: 1px solid #2D3047;
-    background-color: #fafafa;
-    height: 80%;
-    width: 80%;
-    margin: 0 8px 16px;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease-in-out;
-    line-height: 24px;
-}
-
-.main-page-tile {
+.card-custom-bg {
     background-color: #212D40;
     color: white;
-    margin-left: 10%;
-    margin-top: 15px;
 }
