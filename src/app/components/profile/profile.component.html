@@ -1,61 +1,16 @@
-<div>
-    <div class="profile-img-container">
-        <img src="assets/images/IMG_0767.jpg" alt="Profile Picture" class="profile-img" />
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Clarence Taylor</span>
+        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/images/IMG_0767.jpg" alt="..." /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+        </ul>
     </div>
-
-    <div class="profile-name">Rishikesh Pravin Yelne</div>
-    <div class="container">
-        <div class="row">
-            <div class="offset-sm-1 col-sm-2" title="LinkedIn">
-                <span (click)="open('linkedin')" class="profile-link">
-                    <svg fill="currentColor" height="24" width="24" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 455.00 455.00" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M246.4,204.35v-0.665c-0.136,0.223-0.324,0.446-0.442,0.665H246.4z"></path> <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M141.522,378.002H74.016V174.906h67.506V378.002z M107.769,147.186h-0.446C84.678,147.186,70,131.585,70,112.085c0-19.928,15.107-35.087,38.211-35.087 c23.109,0,37.31,15.159,37.752,35.087C145.963,131.585,131.32,147.186,107.769,147.186z M385,378.002h-67.524V269.345 c0-27.291-9.756-45.92-34.195-45.92c-18.664,0-29.755,12.543-34.641,24.693c-1.776,4.34-2.24,10.373-2.24,16.459v113.426h-67.537 c0,0,0.905-184.043,0-203.096H246.4v28.779c8.973-13.807,24.986-33.547,60.856-33.547c44.437,0,77.744,29.02,77.744,91.398V378.002 z"></path> </g> </g></svg>
-                </span>
-            </div>
-            <div class="offset-sm-2 col-sm-2" title="GitHub">
-                <span (click)="open('github')" class="profile-link">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.11.82-.258.82-.577 0-.285-.012-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.29 18.53 3.698 18 3.698 18c-1.115-.758.085-.74.085-.74 1.236.086 1.886 1.27 1.886 1.27 1.1 1.885 2.886 1.34 3.59 1.025.112-.797.426-1.34.773-1.646-2.7-.307-5.54-1.35-5.54-6.007 0-1.33.465-2.42 1.235-3.27-.122-.308-.535-1.547.117-3.222 0 0 1.02-.328 3.34 1.25a11.655 11.655 0 0 1 3.07-.415 11.62 11.62 0 0 1 3.07.415c2.32-1.578 3.34-1.25 3.34-1.25.656 1.675.24 2.914.118 3.222.77.85 1.234 1.94 1.234 3.27 0 4.67-2.846 5.696-5.55 6.002.434.378.82 1.122.82 2.26 0 1.63-.015 2.946-.015 3.35 0 .32.21.692.825.576C20.565 21.8 24 16.3 24 12c0-6.63-5.37-12-12-12z"/>
-                    </svg>            
-                </span>
-            </div>
-            <div class="offset-sm-2 col-sm-2" title="Resume">
-                <span (click)="open('resume')" class="profile-link">
-                    <svg fill="#000000" width="24px" height="24px" viewBox="0 0 256 256" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g id="SVGRepo_iconCarrier" style="fill:white;"> 
-                            <g> 
-                                <path d="M227.6,58.3L179,9.6c-2.6-2.6-6.1-4-9.8-4H45.1c-11.5,0-20.8,9.3-20.8,20.8v203.3c0,11.5,9.3,20.8,20.8,20.8h165.8 c11.5,0,20.8-9.3,20.8-20.8V68C231.7,64.3,230.3,60.9,227.6,58.3z M221.5,229.6c0,5.8-4.8,10.6-10.6,10.6H45.1 c-5.8,0-10.6-4.8-10.6-10.6V26.4c0-5.8,4.8-10.6,10.6-10.6h124.2c1,0,1.9,0.4,2.6,1.1l48.6,48.6c0.7,0.7,1.1,1.6,1.1,2.6V229.6z"></path> 
-                                <path d="M209.2,71.7h-32.9c-5.8,0-10.6-4.8-10.6-10.6V28.1c0-2.8-2.3-5.1-5.1-5.1c-2.8,0-5.1,2.3-5.1,5.1v32.9 c0,11.5,9.3,20.8,20.8,20.8h32.9c2.8,0,5.1-2.3,5.1-5.1S212,71.7,209.2,71.7z"></path> 
-                                <path d="M105,143.5L105,143.5c2.2,11.1,12,19.2,23.3,19.2c11.3,0,21.1-8.1,23.3-19.2l2.9-14.9c1-7.1-1.2-14.2-5.9-19.6 c-4.7-5.4-11.5-8.5-18.6-8.5h-3.4c-7.1,0-13.9,3.1-18.6,8.5c-4.7,5.4-6.8,12.5-5.8,19.9L105,143.5z M115.6,115.7 c2.8-3.2,6.7-5,10.9-5h3.4c4.2,0,8.2,1.8,10.9,5c2.8,3.2,4,7.4,3.5,11.2l-2.8,14.7c-1.2,6.3-6.8,10.9-13.3,10.9 c-6.5,0-12-4.6-13.3-10.9l-2.8-14.4C111.6,123,112.9,118.8,115.6,115.7z"></path> 
-                                <path d="M168.8,177.7l-22.9-8.1l-17.7,17.7l-17.7-17.7l-22.9,8.1c-3.5,1.2-6.1,4.2-6.8,7.8l-8.1,38.1h111l-8.1-38.1 C174.9,182,172.3,179,168.8,177.7z M85.3,213.4l5.5-25.8c0-0.2,0.1-0.3,0.3-0.3l16.8-6l20.4,20.4l20.4-20.4l16.8,6 c0.1,0.1,0.3,0.2,0.3,0.3l5.5,25.8H85.3z"></path> 
-                            </g> 
-                        </g>
-                    </svg>
-                </span>
-            </div>
-        </div>    
-    </div>
-
-    <div class="profile-contact">
-        <hr class="mt-1 mb-1">
-        <div class="container">
-            <div class="row mt-2">
-                <div class="col-sm-2">
-                    <svg fill="#ffffff" height="16px" width="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="Mail" d="M58.0034485,8H5.9965506c-3.3136795,0-5.9999995,2.6862001-5.9999995,6v36c0,3.3137016,2.6863203,6,5.9999995,6 h52.006897c3.3137016,0,6-2.6862984,6-6V14C64.0034485,10.6862001,61.3171501,8,58.0034485,8z M62.0034485,49.1108017 L43.084549,30.1919994l18.9188995-12.0555992V49.1108017z M5.9965506,10h52.006897c2.2056007,0,4,1.7943001,4,4v1.7664003 L34.4677505,33.3134003c-1.4902,0.9492989-3.3935013,0.9199982-4.8495998-0.0703011L1.9965508,14.4694996V14 C1.9965508,11.7943001,3.7910507,10,5.9965506,10z M1.9965508,16.8852005L21.182251,29.9251003L1.9965508,49.1108017V16.8852005z M58.0034485,54H5.9965506c-1.6473999,0-3.0638998-1.0021019-3.6760998-2.4278984l20.5199013-20.5200024l5.6547985,3.843401 c1.0859013,0.7383003,2.3418007,1.1083984,3.5995998,1.1083984c1.1953011,0,2.3925018-0.3339996,3.4463005-1.0048981 l5.8423996-3.7230015l20.2961006,20.2961025C61.0673485,52.9978981,59.6508713,54,58.0034485,54z"></path> </g></svg>
-                </div>
-                <div class="col-sm-10 align-middle">
-                    rishikeshyelne95@gmail.com
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-sm-2">
-                    <svg fill="#ffffff" height="16px" width="16px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 395.71 395.71" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path> </g> </g></svg>
-                </div>
-                <div class="col-sm-10">
-                    Raleigh, NC, USA
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</nav>
