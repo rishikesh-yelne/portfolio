@@ -11,6 +11,6 @@ Run the following commands to run the application using Docker.
 `docker run -p 4200:4200 portfolio-app`
 
 ### Contact
-ryelne@ncsu.edu
+rishikeshyelne95@gmail.com
 
 Do let me know if you find any improvements in the website, happy to update! :smile: 
